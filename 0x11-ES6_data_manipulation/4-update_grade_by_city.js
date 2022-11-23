@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default function getStudentsByLocation(array, city, grad) {
 	return array
 	  .filter((i) => i.location === city)
